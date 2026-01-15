@@ -13,5 +13,5 @@ export GROQ_API_KEY=YOURKEYHERE
 # SPEECH_OUTPUT_FILE="$HOME/speech_output.txt"
 # SPEECH_ERROR_FILE="$HOME/speech_error.txt"
 
-python /home/dum/Code/stt.py "$@"
+python stt.py "$@"
 # >  "$SPEECH_OUTPUT_FILE" 2> "$SPEECH_ERROR_FILE"
